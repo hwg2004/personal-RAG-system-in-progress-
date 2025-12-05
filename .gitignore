@@ -1,0 +1,12 @@
+venv
+.env
+.env.*
+.vscode/
+*.code-workspace
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log

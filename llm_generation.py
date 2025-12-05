@@ -6,7 +6,9 @@ OpenAI Responses API backend for RAG system.
 from typing import Optional
 from openai import OpenAI
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 api_key = os.getenv("OPENAI_API_KEY")
